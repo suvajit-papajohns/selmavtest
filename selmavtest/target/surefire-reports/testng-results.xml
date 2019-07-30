@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="79276" started-at="2019-07-29T22:27:08Z" finished-at="2019-07-29T22:28:27Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suvi.selmavtest.TestRunner@3a03464]" name="feature" class="suvi.selmavtest.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suvi.selmavtest.TestRunner@6276ae34]" name="feature" class="suvi.selmavtest.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login Test Saucelabs" duration-ms="78490" started-at="2019-07-29T22:27:08Z" finished-at="2019-07-29T22:28:26Z">
+      <class name="suvi.selmavtest.TestRunner">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, org.testng.ITestContext)[pri:0, instance:suvi.selmavtest.TestRunner@6276ae34]" name="setUpClass" is-config="true" duration-ms="17049" started-at="2019-07-29T17:27:08Z" finished-at="2019-07-29T17:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d8a00e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suvi.selmavtest.TestRunner@6276ae34]" name="feature" duration-ms="60308" started-at="2019-07-29T17:27:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-29T17:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verifying Login functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suvi.selmavtest.TestRunner@6276ae34]" name="tearDownClass" is-config="true" duration-ms="444" started-at="2019-07-29T17:28:26Z" finished-at="2019-07-29T17:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suvi.selmavtest.TestRunner -->
+    </test> <!-- Login Test Saucelabs -->
+    <test name="Login Test Local" duration-ms="79276" started-at="2019-07-29T22:27:08Z" finished-at="2019-07-29T22:28:27Z">
+      <class name="suvi.selmavtest.TestRunner">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, org.testng.ITestContext)[pri:0, instance:suvi.selmavtest.TestRunner@3a03464]" name="setUpClass" is-config="true" duration-ms="21380" started-at="2019-07-29T17:27:08Z" finished-at="2019-07-29T17:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d78f375]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suvi.selmavtest.TestRunner@3a03464]" name="feature" duration-ms="57552" started-at="2019-07-29T17:27:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-29T17:28:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verifying Login functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suvi.selmavtest.TestRunner@3a03464]" name="tearDownClass" is-config="true" duration-ms="294" started-at="2019-07-29T17:28:27Z" finished-at="2019-07-29T17:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suvi.selmavtest.TestRunner -->
+    </test> <!-- Login Test Local -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" verbose="0" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <parameter name="envNo" value="3"/>
+  <test name="Login Test Local(failed)" parallel="tests">
+    <parameter name="envNo" value="2"/>
+    <classes>
+      <class name="suvi.selmavtest.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- suvi.selmavtest.TestRunner -->
+    </classes>
+  </test> <!-- Login Test Local(failed) -->
+  <test name="Login Test Saucelabs(failed)" parallel="tests">
+    <parameter name="envNo" value="3"/>
+    <classes>
+      <class name="suvi.selmavtest.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- suvi.selmavtest.TestRunner -->
+    </classes>
+  </test> <!-- Login Test Saucelabs(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

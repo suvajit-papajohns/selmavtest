@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BDD Test Suite" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue">
+	<test name="Login Test Local" annotations="JDK" preserve-order="true">
+    	<parameter name="envNo" value="2"/>
+    	<classes>
+            <class name="suvi.selmavtest.TestRunner"/>
+        </classes>
+    </test>
+    <test name="Login Test Saucelabs" annotations="JDK" preserve-order="true">
+    	<parameter name="envNo" value="3"/>
+    	<classes>
+            <class name="suvi.selmavtest.TestRunner"/>
+        </classes>
+    </test>
+</suite>
+<!-- suite name="Suite1" verbose="1" parallel="false">
+  <test name="TestSel" >
+    <classes>
+       <class name="suvi.selmavtest.SelJUnitTest" />
+       <class name="suvi.selmavtest.LoginAction"/>
+    </classes>
+  </test-->
+ 
+  <!--test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test-->
+<!-- /suite-->

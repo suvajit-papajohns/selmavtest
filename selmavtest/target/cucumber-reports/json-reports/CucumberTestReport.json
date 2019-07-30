@@ -1,0 +1,337 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: suvajitc@gmail.com"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User is in Mercury Tours home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6357473153,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the \"Welcome: Mercury Tours\" page of \"http://www.newtours.demoaut.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome: Mercury Tours",
+                  "offset": 13
+                },
+                {
+                  "val": "http://www.newtours.demoaut.com/",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginStepDefs.i_am_on_the_homepage_of_url(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2335349607,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see \"MercuryTours\" image in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MercuryTours",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefs.i_should_see_image_in_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5562710687,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see the \"User Name:\" and \"Password:\" fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User Name:",
+                  "offset": 15
+                },
+                {
+                  "val": "Password:",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefs.i_can_see_the_and_fields(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify Valid Login of Mercury Tours site",
+        "description": "",
+        "id": "verifying-login-functionality;verify-valid-login-of-mercury-tours-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8043930921,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter username as \"demo\" and password as \"demo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo",
+                  "offset": 21
+                },
+                {
+                  "val": "demo",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginStepDefs.i_enter_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8550504239,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click the \"Sign-In\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign-In",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefs.i_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209980077,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am signed in and view the \"Find a Flight\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find a Flight",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefs.i_am_signed_in_and_view_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 820997495,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I see the \"Flight Details\" form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flight Details",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginStepDefs.i_see_the_form(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User is in Mercury Tours home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5767210277,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the \"Welcome: Mercury Tours\" page of \"http://www.newtours.demoaut.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome: Mercury Tours",
+                  "offset": 13
+                },
+                {
+                  "val": "http://www.newtours.demoaut.com/",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginStepDefs.i_am_on_the_homepage_of_url(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1766520337,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see \"MercuryTours\" image in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MercuryTours",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepDefs.i_should_see_image_in_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3020511977,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see the \"User Name:\" and \"Password:\" fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User Name:",
+                  "offset": 15
+                },
+                {
+                  "val": "Password:",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefs.i_can_see_the_and_fields(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Failed Login using wrong credentials",
+        "description": "",
+        "id": "verifying-login-functionality;failed-login-using-wrong-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3616120293,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill in username with pqr",
+            "match": {
+              "location": "LoginStepDefs.i_fill_in_username_with_pqr()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5402969561,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill in password as pqr",
+            "match": {
+              "location": "LoginStepDefs.i_fill_in_password_as_pqr()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5746912067,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the \"Sign-In\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign-In",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefs.i_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241078612,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am redirected to Sign-on page",
+            "match": {
+              "location": "LoginStepDefs.i_am_redirected_to_Sign_on_page()"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Login functionality",
+    "description": "I want to verify login functionality of Mercury Tours site",
+    "id": "verifying-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@wip"
+      }
+    ]
+  }
+]]
